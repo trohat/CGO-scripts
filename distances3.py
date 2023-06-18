@@ -15,9 +15,4 @@ def calculate_distances():
     diff = (last_dist - first_dist) / iters
     print("Diff", diff)
 
-    s_real_dim = int(input("Enter second real dimension: "))
-    s_o_dim = int(input("Enter second options dimension: "))
-    s_target_dim = int(input("Enter second target dimension: "))
-    print("Second dimension: ", s_target_dim / (s_real_dim / s_o_dim))
-
 calculate_distances()
